@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Da Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="req.css" media="screen"/>
+    </head>
+    
+    <body>
+        <img src="arrow2.gif" width="120" height="450" style="position:absolute; left:20px; top:250px;">
+        <table style="width: 100%;">
+            <tr>
+                <td style="width: 40%;" cellspacing="0" cellpadding="0" >
+                    <p style="font-size: 40px; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 600; color: cyan;">
+                        Look Look:
+                    </p>
+                    <div style="color: cyan; font-size: 20px;">
+                        Choose any number. Add it's digits and subtract it from the number. Remember the resulting number's symbol, click on results. eg:<br>If chosen num is 32. calculate (32-(3+2)) = 27. Note the symbol at 27.<br>nowww,
+                    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    
+                    <div style="font-size: 30px; position: absolute; left: 250px; color: lightcyan;">
+                        * pepe watches *
+                    </div><br><br>
+                    <div style="font-size: 50px; position: absolute; left: 30px; color: lightcyan;">
+                        <button id="myBtn" style="font-size: 80px; ">Click on this</button>
+                    </div>
+                    <br><br><br>
+                    </td>
+                
+                    <td style=" width: 20%; height: 100%; font-size: 20px; color: cyan;">
+                        <b>99 &ensp; = &ensp; <output id="num99" style="font-size: 15px;"></output></b><br>
+                        <b>98 &ensp; = &ensp; <output id="num98" style="font-size: 15px;"></output></b><br>
+                        <b>97 &ensp; = &ensp; <output id="num97" style="font-size: 15px;"></output></b><br>
+                        <b>96 &ensp; = &ensp; <output id="num96" style="font-size: 15px;"></output></b><br>
+                        <b>95 &ensp; = &ensp; <output id="num95" style="font-size: 15px;"></output></b><br>
+                        <b>94 &ensp; = &ensp; <output id="num94" style="font-size: 15px;"></output></b><br>
+                        <b>93 &ensp; = &ensp; <output id="num93" style="font-size: 15px;"></output></b><br>
+                        <b>92 &ensp; = &ensp; <output id="num92" style="font-size: 15px;"></output></b><br>
+                        <b>91 &ensp; = &ensp; <output id="num91" style="font-size: 15px;"></output></b><br>
+                        <b>90 &ensp; = &ensp; <output id="num90" style="font-size: 15px;"></output></b><br>
+                        <b>89 &ensp; = &ensp; <output id="num89" style="font-size: 15px;"></output></b><br>
+                        <b>88 &ensp; = &ensp; <output id="num88" style="font-size: 15px;"></output></b><br>
+                        <b>87 &ensp; = &ensp; <output id="num87" style="font-size: 15px;"></output></b><br>
+                        <b>86 &ensp; = &ensp; <output id="num86" style="font-size: 15px;"></output></b><br>
+                        <b>85 &ensp; = &ensp; <output id="num85" style="font-size: 15px;"></output></b><br>
+                        <b>84 &ensp; = &ensp; <output id="num84" style="font-size: 15px;"></output></b><br>
+                        <b>83 &ensp; = &ensp; <output id="num83" style="font-size: 15px;"></output></b><br>
+                        <b>82 &ensp; = &ensp; <output id="num82" style="font-size: 15px;"></output></b><br>
+                        <b>81 &ensp; = &ensp; <output id="num81" style="font-size: 15px;"></output></b><br>
+                        <b>80 &ensp; = &ensp; <output id="num80" style="font-size: 15px;"></output></b><br>
+                        <b>79 &ensp; = &ensp; <output id="num79" style="font-size: 15px;"></output></b><br>
+                        <b>78 &ensp; = &ensp; <output id="num78" style="font-size: 15px;"></output></b><br>
+                        <b>77 &ensp; = &ensp; <output id="num77" style="font-size: 15px;"></output></b><br>
+                        <b>76 &ensp; = &ensp; <output id="num76" style="font-size: 15px;"></output></b><br>
+                        <b>75 &ensp; = &ensp; <output id="num75" style="font-size: 15px;"></output></b><br>
+                        <b>74 &ensp; = &ensp; <output id="num74" style="font-size: 15px;"></output></b><br>
+                        <b>73 &ensp; = &ensp; <output id="num73" style="font-size: 15px;"></output></b><br>
+                        <b>72 &ensp; = &ensp; <output id="num72" style="font-size: 15px;"></output></b><br>
+                        <b>71 &ensp; = &ensp; <output id="num71" style="font-size: 15px;"></output></b><br>
+                        <b>70 &ensp; = &ensp; <output id="num70" style="font-size: 15px;"></output></b><br>
+                        <b>69 &ensp; = &ensp; <output id="num69" style="font-size: 15px;"></output></b><br>
+                        <b>68 &ensp; = &ensp; <output id="num68" style="font-size: 15px;"></output></b><br>
+                        <b>67 &ensp; = &ensp; <output id="num67" style="font-size: 15px;"></output></b><br>
+                    </td>
+                    <td style=" width: 20%; height: 100%;font-size: 20px; color: cyan;">
+                        <b>66 &ensp; = &ensp; <output id="num66" style="font-size: 15px;"></output></b><br>
+                        <b>65 &ensp; = &ensp; <output id="num65" style="font-size: 15px;"></output></b><br>
+                        <b>64 &ensp; = &ensp; <output id="num64" style="font-size: 15px;"></output></b><br>
+                        <b>63 &ensp; = &ensp; <output id="num63" style="font-size: 15px;"></output></b><br>
+                        <b>62 &ensp; = &ensp; <output id="num62" style="font-size: 15px;"></output></b><br>
+                        <b>61 &ensp; = &ensp; <output id="num61" style="font-size: 15px;"></output></b><br>
+                        <b>60 &ensp; = &ensp; <output id="num60" style="font-size: 15px;"></output></b><br>
+                        <b>59 &ensp; = &ensp; <output id="num59" style="font-size: 15px;"></output></b><br>
+                        <b>58 &ensp; = &ensp; <output id="num58" style="font-size: 15px;"></output></b><br>
+                        <b>57 &ensp; = &ensp; <output id="num57" style="font-size: 15px;"></output></b><br>
+                        <b>56 &ensp; = &ensp; <output id="num56" style="font-size: 15px;"></output></b><br>
+                        <b>55 &ensp; = &ensp; <output id="num55" style="font-size: 15px;"></output></b><br>
+                        <b>54 &ensp; = &ensp; <output id="num54" style="font-size: 15px;"></output></b><br>
+                        <b>53 &ensp; = &ensp; <output id="num53" style="font-size: 15px;"></output></b><br>
+                        <b>52 &ensp; = &ensp; <output id="num52" style="font-size: 15px;"></output></b><br>
+                        <b>51 &ensp; = &ensp; <output id="num51" style="font-size: 15px;"></output></b><br>
+                        <b>50 &ensp; = &ensp; <output id="num50" style="font-size: 15px;"></output></b><br>
+                        <b>49 &ensp; = &ensp; <output id="num49" style="font-size: 15px;"></output></b><br>
+                        <b>48 &ensp; = &ensp; <output id="num48" style="font-size: 15px;"></output></b><br>
+                        <b>47 &ensp; = &ensp; <output id="num47" style="font-size: 15px;"></output></b><br>
+                        <b>46 &ensp; = &ensp; <output id="num46" style="font-size: 15px;"></output></b><br>
+                        <b>45 &ensp; = &ensp; <output id="num45" style="font-size: 15px;"></output></b><br>
+                        <b>44 &ensp; = &ensp; <output id="num44" style="font-size: 15px;"></output></b><br>
+                        <b>43 &ensp; = &ensp; <output id="num43" style="font-size: 15px;"></output></b><br>
+                        <b>42 &ensp; = &ensp; <output id="num42" style="font-size: 15px;"></output></b><br>
+                        <b>41 &ensp; = &ensp; <output id="num41" style="font-size: 15px;"></output></b><br>
+                        <b>40 &ensp; = &ensp; <output id="num40" style="font-size: 15px;"></output></b><br>
+                        <b>39 &ensp; = &ensp; <output id="num39" style="font-size: 15px;"></output></b><br>
+                        <b>38 &ensp; = &ensp; <output id="num38" style="font-size: 15px;"></output></b><br>
+                        <b>37 &ensp; = &ensp; <output id="num37" style="font-size: 15px;"></output></b><br>
+                        <b>36 &ensp; = &ensp; <output id="num36" style="font-size: 15px;"></output></b><br>
+                        <b>35 &ensp; = &ensp; <output id="num35" style="font-size: 15px;"></output></b><br>
+                        <b>34 &ensp; = &ensp; <output id="num34" style="font-size: 15px;"></output></b><br>
+    
+                    </td>
+                    <td style=" width: 20%; height: 100%;font-size: 20px; color: cyan;">
+                        <b>33 &ensp; = &ensp; <output id="num33" style="font-size: 15px;"></output></b><br>
+                        <b>32 &ensp; = &ensp; <output id="num32" style="font-size: 15px;"></output></b><br>
+                        <b>31 &ensp; = &ensp; <output id="num31" style="font-size: 15px;"></output></b><br>
+                        <b>30 &ensp; = &ensp; <output id="num30" style="font-size: 15px;"></output></b><br>
+                        <b>29 &ensp; = &ensp; <output id="num29" style="font-size: 15px;"></output></b><br>
+                        <b>28 &ensp; = &ensp; <output id="num28" style="font-size: 15px;"></output></b><br>
+                        <b>27 &ensp; = &ensp; <output id="num27" style="font-size: 15px;"></output></b><br>
+                        <b>26 &ensp; = &ensp; <output id="num26" style="font-size: 15px;"></output></b><br>
+                        <b>25 &ensp; = &ensp; <output id="num25" style="font-size: 15px;"></output></b><br>
+                        <b>24 &ensp; = &ensp; <output id="num24" style="font-size: 15px;"></output></b><br>
+                        <b>23 &ensp; = &ensp; <output id="num23" style="font-size: 15px;"></output></b><br>
+                        <b>22 &ensp; = &ensp; <output id="num22" style="font-size: 15px;"></output></b><br>
+                        <b>21 &ensp; = &ensp; <output id="num21" style="font-size: 15px;"></output></b><br>
+                        <b>20 &ensp; = &ensp; <output id="num20" style="font-size: 15px;"></output></b><br>
+                        <b>19 &ensp; = &ensp; <output id="num19" style="font-size: 15px;"></output></b><br>
+                        <b>18 &ensp; = &ensp; <output id="num18" style="font-size: 15px;"></output></b><br>
+                        <b>17 &ensp; = &ensp; <output id="num17" style="font-size: 15px;"></output></b><br>
+                        <b>16 &ensp; = &ensp; <output id="num16" style="font-size: 15px;"></output></b><br>
+                        <b>15 &ensp; = &ensp; <output id="num15" style="font-size: 15px;"></output></b><br>
+                        <b>14 &ensp; = &ensp; <output id="num14" style="font-size: 15px;"></output></b><br>
+                        <b>13 &ensp; = &ensp; <output id="num13" style="font-size: 15px;"></output></b><br>
+                        <b>12 &ensp; = &ensp; <output id="num12" style="font-size: 15px;"></output></b><br>
+                        <b>11 &ensp; = &ensp; <output id="num11" style="font-size: 15px;"></output></b><br>
+                        <b>10 &ensp; = &ensp; <output id="num10" style="font-size: 15px;"></output></b><br>
+                        <b>09 &ensp; = &ensp; <output id="num09" style="font-size: 15px;"></output></b><br>
+                        <b>08 &ensp; = &ensp; <output id="num08" style="font-size: 15px;"></output></b><br>
+                        <b>07 &ensp; = &ensp; <output id="num07" style="font-size: 15px;"></output></b><br>
+                        <b>06 &ensp; = &ensp; <output id="num06" style="font-size: 15px;"></output></b><br>
+                        <b>05 &ensp; = &ensp; <output id="num05" style="font-size: 15px;"></output></b><br>
+                        <b>04 &ensp; = &ensp; <output id="num04" style="font-size: 15px;"></output></b><br>
+                        <b>03 &ensp; = &ensp; <output id="num03" style="font-size: 15px;"></output></b><br>
+                        <b>02 &ensp; = &ensp; <output id="num02" style="font-size: 15px;"></output></b><br>
+                        <b>01 &ensp; = &ensp; <output id="num01" style="font-size: 15px;"></output></b><br>
+                    </td>
+                
+            </tr>
+        </table>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="pg2_1.png" style="width: 100px; height: 100px; position: relative ; left: 1100px; top: 5px;">
+                    <a href="page2.html">
+                        <button id="myBtn" style="font-size: 50px; background-color: transparent; border: none; cursor: pointer; overflow: hidden; outline: none; color: black; text-shadow: 2px 2px 5px white, 0 0 30px white, 0 0 10px yellow; position: relative; left: 1100px; top: -20px; font-size: 60px;">
+                            Go again !!
+                        </button>
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <img src="last_1.png" style="position: absolute; left: 1150px; top: 180px; height: 380px; width: 380px;">
+                    <b style="position: absolute; left: 450px; top: 200px;"><output id="mod" style="font-size: 150px; color: black;"></output><br></b>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+                </div>
+                <div class="modal-footer">
+                    <img src="pg2_2.png" style="width: 130px; height: 100px; position: relative ; left: 1100px; top: 5px;">
+                    <a href="page3.html">
+                        <button id="myBtn" style="font-size: 50px; background-color: transparent; border: none; cursor: pointer; overflow: hidden; outline: none; color: black; text-shadow: 2px 2px 5px white, 0 0 30px white, 0 0 10px yellow; position: relative; left: 1150px; top: -20px; font-size: 60px;">
+                            Exit
+                        </button>
+                    </a>
+                  </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="calc.js">
+            
+        </script>
+        
+    </body>
+</html>
