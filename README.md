@@ -1,2 +1,2 @@
 # A-Raja-Rajendran.github.io
-simple webpage
+A game made using html, css and javascript.
